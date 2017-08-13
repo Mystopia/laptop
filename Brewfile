@@ -12,7 +12,7 @@ brew "nvm"
 brew "python3"
 brew "sqlite"
 brew "ssh-copy-id"
-brew "supervisor"
+brew "supervisor", restart_service: :changed
 brew "tmux"
 brew "watch"
 
