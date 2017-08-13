@@ -2,6 +2,7 @@ cask_args appdir: "/Applications"
 
 tap "caskroom/cask"
 tap "caskroom/versions"
+tap "homebrew/services"
 
 brew "doxygen"
 brew "htop"
